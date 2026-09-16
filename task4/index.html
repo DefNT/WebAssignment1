@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task 4</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <div class="header">
+        <h1>CSS Table&Form</h1>
+    </div>
+
+    <div class="nav">
+        <a href="../task1/index.html">Task 1</a>
+        <a href="../task2/index.html">Task 2</a>
+        <a href="../task3/index.html">Task 3</a>
+        <a href="../task4/index.html">Task 4</a>
+    </div>
+
+    <div class="container">
+        <section class="section-box">
+            <h2 id="table-heading">Student Grade Report</h2>
+
+            <table class="grades-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Casual Joe</td>
+                        <td>Web Development</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Algorithms</td>
+                        <td>A-</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td>Alex Mercer</td>
+                        <td>Software Design</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Russian</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Class Average Status</td>
+                        <td>Passing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-box">
+            <form id="feedback-form" class="styled-form">
+                <h2>Feedback Form</h2>
+
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Role:</label>
+                    <select id="role" name="role" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group radio-group">
+                    <label>Would you recommend this course?</label>
+                    <div class="radio-options">
+                        <label class="radio-label">
+                            <input type="radio" name="recommend" value="yes" required> Yes
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="recommend" value="no"> No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit Feedback</button>
+                </div>
+            </form>
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Personal Page</p>
+    </div>
+
 </body>
 </html>
