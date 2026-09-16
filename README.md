@@ -1,6 +1,6 @@
 # Web Technology - Assignment 1
 
-## It features web tasks demonstrating basic HTML and CSS usage. Each page includes a navigation bar allowing you to switch between pages
+## This repo features web tasks demonstrating basic HTML and CSS usage. Each page includes a navigation bar allowing you to switch between pages
 
 ## Repository Structure
 
