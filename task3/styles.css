@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #FDFBF7;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.header {
+    background-color: #b9aa93;
+    color: black;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 1px solid #8C7A6B;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.header h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #4A443E;
+}
+
+.nav {
+    background-color: #F4F0EA;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #8C7A6B;
+}
+
+.nav a {
+    color: #2B2927;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    padding: 6px 12px;
+}
+
+.nav a:hover {
+    background-color: #8C7A6B;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.content {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #F4F0EA;
+    border: 1px solid #8C7A6B;
+    border-radius: 8px;
+    
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 8px;
+    border: 2px solid #8C7A6B;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #8C7A6B;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+p {
+    line-height: 1.7;
+    color: black;
+}
+
+ol.timeline-list, ul.contributions-list {
+    padding-left: 22px;
+}
+
+ol.timeline-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+ul.contributions-list {
+    list-style-type: square;
+}
+
+ul.contributions-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+a {
+    color: #8C7A6B;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #544E49;
+}
+
+.links-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8C7A6B;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #544E49;
+    color: white;
+}
+
+.footer {
+    background-color: #F4F0EA;
+    color: #544E49;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #8C7A6B;
+}
